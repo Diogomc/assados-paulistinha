@@ -1,6 +1,7 @@
 import { NavBar } from "../components/nav/nav";
 import { FaLocationPin } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
+import { Footer } from "../components/footer/footer";
 const Menu = () => {
     return (
         <div>
@@ -54,6 +55,7 @@ const Menu = () => {
                     </p>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

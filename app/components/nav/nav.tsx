@@ -26,13 +26,13 @@ export const NavBar = () => {
             <ul className={`flex p-2 max-md:flex-col text-center max-md:absolute 
                 left-0 right-0 text-white bg-[#f8cb38] top-18 z-999 ${menuOpen ? "max-md:hidden" : ''}`}>
                 <li className="p-1 max-md:p-5">
-                    <Link href="/">Home</Link>
+                    <Link href="/" className="hover:underline">Home</Link>
                 </li>
                 <li className="p-1 max-md:p-5">
-                    <a href="/menu">Cardápio</a>
+                    <a href="/menu" className="hover:underline">Cardápio</a>
                 </li>
                 <li className="p-1 max-md:p-5">
-                    <a href="/raffle">Sorteios</a>
+                    <a href="/raffle" className="hover:underline">Sorteios</a>
                 </li>
                 
             </ul>
