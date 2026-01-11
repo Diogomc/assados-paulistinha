@@ -23,7 +23,7 @@ export const Footer = () => {
                     <p className="border-b border-[#f8cb38] text-lg">Redes Sociais</p>
                     <ul className={`flex max-md:justify-center justify-center my-2`}>
                         <li className="p-1 cursor-pointer text-[#f8cb38] hover:text-amber-900">
-                            <FaInstagram size={30} />
+                            <a href="https://www.instagram.com/assadospaulistinhasjc/" target="_blank"><FaInstagram size={30} /></a>
                         </li>
                         <li className="p-1 cursor-pointer text-[#f8cb38] hover:text-amber-900">
                             <FaSquareFacebook size={30} />

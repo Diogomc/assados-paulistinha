@@ -38,7 +38,7 @@ export const NavBar = () => {
             </ul>
             <ul className={`flex max-md:justify-center p-2 max-md:flex-row max-md:absolute bg-[#f8cb38] top-68 z-999 left-0 right-0 ${menuOpen ? "max-md:hidden" : ''}`}>
                 <li className="p-1 cursor-pointer text-white hover:text-amber-900 max-md:py-5">
-                    <FaInstagram size={30} />
+                    <a href="https://www.instagram.com/assadospaulistinhasjc/" target="_blank"><FaInstagram size={30} /></a>
                 </li>
                 <li className="p-1 cursor-pointer text-white hover:text-amber-900 max-md:py-5">
                     <FaSquareFacebook size={30} />
