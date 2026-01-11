@@ -20,7 +20,7 @@ export const NavBar = () => {
                 <li className="hidden max-md:block">
                     { menuOpen ? <IoMdMenu size={40} onClick={handleMenu} /> : <IoMdClose size={40} onClick={handleMenu}/>}
                 </li>
-                <li><img className="w-14" src="/logo.jpg" alt="" /></li>
+                <li><Link href="/"><img className="w-14" src="/logo.jpg" alt="" /></Link></li>
             </ul>
 
             <ul className={`flex p-2 max-md:flex-col text-center max-md:absolute 
@@ -32,13 +32,11 @@ export const NavBar = () => {
                     <a href="/menu">Cardápio</a>
                 </li>
                 <li className="p-1 max-md:p-5">
-                    <a href="#">Sorteios</a>
+                    <a href="/raffle">Sorteios</a>
                 </li>
-                <li className="p-1 max-md:p-5">
-                    <a href="#">Contato</a>
-                </li>
+                
             </ul>
-            <ul className={`flex max-md:justify-center p-2 max-md:flex-row max-md:absolute bg-[#f8cb38] top-85 z-999 left-0 right-0 ${menuOpen ? "max-md:hidden" : ''}`}>
+            <ul className={`flex max-md:justify-center p-2 max-md:flex-row max-md:absolute bg-[#f8cb38] top-68 z-999 left-0 right-0 ${menuOpen ? "max-md:hidden" : ''}`}>
                 <li className="p-1 cursor-pointer text-white hover:text-amber-900 max-md:py-5">
                     <FaInstagram size={30} />
                 </li>
