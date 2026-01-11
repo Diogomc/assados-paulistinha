@@ -14,7 +14,12 @@ export const Footer = () => {
                     <p className="border-b border-amber-400 text-lg">Horario de funcionamento:</p>
                     <p className="my-2 max-md:text-center">Sábados e domingos</p>
                 </div>
-                <div className="max-md:my-4"> 
+                <div className="max-md:flex-col max-md:my-4">
+                    <p className="border-b border-amber-400 text-lg text-center">Endereço: </p>
+                    <p className="my-3">R. Antônio Costa Rosendo, 44 - Jardim Paulista</p>
+                    <p className="text-center">São José dos Campos, SP.</p>
+                </div>
+                <div className="max-md:my-4">
                     <p className="border-b border-amber-400 text-lg">Redes Sociais</p>
                     <ul className={`flex max-md:justify-center justify-center my-2`}>
                         <li className="p-1 cursor-pointer text-orange-400 hover:text-amber-900">
@@ -28,13 +33,12 @@ export const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div  className="max-md:flex-col max-md:my-4">
-                    <p className="border-b border-amber-400 text-lg text-center">Endereço: </p>
-                    <p className="my-3">R. Antônio Costa Rosendo, 44 - Jardim Paulista</p>
-                    <p className="text-center">São José dos Campos, SP.</p>
-                </div>
+
             </div>
-            <p className="bg-amber-400 text-white text-center p-4">© 2024 - {year()} Todos os Direitos Reservados <a href="/home">Assados Paulistinha</a></p>
+            <div className="flex flex-col bg-amber-400 text-white text-center p-4">
+                <p >© 2024 - {year()} Todos os Direitos Reservados <a href="/home">Assados Paulistinha</a></p>
+                <p className="pt-2">Desenvolvido por <a className="underline" href="https://www.linkedin.com/in/diogo-marcondes/" target="_blank">DM</a></p>
+            </div>
         </div>
     )
 }
