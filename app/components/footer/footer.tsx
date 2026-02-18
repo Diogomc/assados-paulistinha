@@ -12,7 +12,7 @@ export const Footer = () => {
             <div className="flex justify-around p-5 items-center max-md:flex-col">
                 <div className="max-md:my-4">
                     <p className="border-b border-[#f8cb38] text-lg">Horario de funcionamento:</p>
-                    <p className="my-2 max-md:text-center">Sábados e domingos</p>
+                    <p className="my-2 max-md:text-center">Todos os Domingos das 08:00 às 13:00</p>
                 </div>
                 <div className="max-md:flex-col max-md:my-4">
                     <p className="border-b border-[#f8cb38] text-lg text-center">Endereço: </p>

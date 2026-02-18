@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "Assados Paulistinha",
   description: "Assados Paulistinha",
+  icons: "/logo.jpg"
 };
 
 export default function RootLayout({
